@@ -11,6 +11,7 @@ export const getById = async (req:Request, res:Response) =>{
     catch(error){
         return res.status(500).send(error);
     }
+    
 }
 
 export const getData = async (_:Request, res:Response) =>{
